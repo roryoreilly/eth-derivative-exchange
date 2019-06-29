@@ -1,0 +1,19 @@
+{
+  "name": "photo-of-the-day",
+  "version": "1.0.0",
+  "description": "DApp which allows users to host a single picture on a webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roryoreilly/eth-photooftheday.git"
+  },
+  "author": "Rory O'Reilly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roryoreilly/eth-photooftheday/issues"
+  },
+  "homepage": "https://github.com/roryoreilly/eth-photooftheday#readme"
+}
