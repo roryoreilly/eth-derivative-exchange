@@ -1,2 +1,2 @@
-# eth-photooftheday
-DApp which allows users to host a single picture on a webpage
+# Decentralized derivative exchange
+Dex which will allow users to create a market for derivatives on the ethereum ecosystem while being decentralised.

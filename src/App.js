@@ -1,26 +1,68 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Card, Button, Grid} from 'semantic-ui-react';
+import derivatives from './ethereum/der_dex';
+import NewOption from './options/NewOption';
+import InteractOption from './options/InteractOption';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {
+        options: [],
+        choosenOption: '0x448967ac95Ca468528643D84fF3902A2d930494F'
+    };
+
+    componentWillMount() {
+        this.loadBlockchainData();
+    }
+
+    async loadBlockchainData() {
+        const options = await derivatives.methods.getOptions().call();
+        this.setState({ options });
+    }
+
+    renderOptions = () => {
+        const items = this.state.options.map(address => {
+            return {
+              header: address,
+              description: (
+                  <Button onClick={
+                          (event, data) => this.setState({ choosenOption: data.children })
+                        }>
+                      {address}
+                </Button>),
+              fluid: true
+          }
+        });
+        return <Card.Group items={items} />;
+    }
+
+    render() {
+      return (
+          <Grid>
+            <Grid.Row>
+              <Grid.Column width={10}>
+                <h3>Open Campaigns</h3>
+
+                { this.renderOptions() }
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column>
+                  <NewOption />
+              </Grid.Column>
+            </Grid.Row>
+            {
+                !!this.state.choosenOption && (
+                    <Grid.Row>
+                      <Grid.Column>
+                          <InteractOption contract={this.state.choosenOption}/>
+                      </Grid.Column>
+                    </Grid.Row>
+                )
+            }
+        </Grid>
+      );
+    }
+
 }
 
 export default App;
