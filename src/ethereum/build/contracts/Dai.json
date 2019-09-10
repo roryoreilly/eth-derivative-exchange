@@ -306,7 +306,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 32,
-        "sourceUnit": 895,
+        "sourceUnit": 894,
         "src": "34:63:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -317,7 +317,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 32,
-        "sourceUnit": 953,
+        "sourceUnit": 952,
         "src": "98:71:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -331,10 +331,10 @@
               "id": 4,
               "name": "ERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 894,
+              "referencedDeclaration": 893,
               "src": "417:5:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20_$894",
+                "typeIdentifier": "t_contract$_ERC20_$893",
                 "typeString": "contract ERC20"
               }
             },
@@ -349,10 +349,10 @@
               "id": 6,
               "name": "ERC20Detailed",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 952,
+              "referencedDeclaration": 951,
               "src": "424:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20Detailed_$952",
+                "typeIdentifier": "t_contract$_ERC20Detailed_$951",
                 "typeString": "contract ERC20Detailed"
               }
             },
@@ -362,9 +362,9 @@
           }
         ],
         "contractDependencies": [
-          894,
-          952,
-          1021
+          893,
+          951,
+          1020
         ],
         "contractKind": "contract",
         "documentation": "@title SimpleToken\n@dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.\nNote they can later distribute these tokens as they wish using `transfer` and other\n`ERC20` functions.",
@@ -372,9 +372,9 @@
         "id": 31,
         "linearizedBaseContracts": [
           31,
-          952,
-          894,
-          1021
+          951,
+          893,
+          1020
         ],
         "name": "Dai",
         "nodeType": "ContractDefinition",
@@ -397,7 +397,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1036,
+                          "referencedDeclaration": 1035,
                           "src": "601:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -495,7 +495,7 @@
                                       "name": "decimals",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 951,
+                                      "referencedDeclaration": 950,
                                       "src": "635:8:0",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint8_$",
@@ -593,7 +593,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 780,
+                      "referencedDeclaration": 779,
                       "src": "595:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -689,10 +689,10 @@
                   "name": "ERC20Detailed",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 952,
+                  "referencedDeclaration": 951,
                   "src": "553:13:0",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC20Detailed_$952_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC20Detailed_$951_$",
                     "typeString": "type(contract ERC20Detailed)"
                   }
                 },
@@ -757,7 +757,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 32,
-        "sourceUnit": 895,
+        "sourceUnit": 894,
         "src": "34:63:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -768,7 +768,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 32,
-        "sourceUnit": 953,
+        "sourceUnit": 952,
         "src": "98:71:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -782,10 +782,10 @@
               "id": 4,
               "name": "ERC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 894,
+              "referencedDeclaration": 893,
               "src": "417:5:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20_$894",
+                "typeIdentifier": "t_contract$_ERC20_$893",
                 "typeString": "contract ERC20"
               }
             },
@@ -800,10 +800,10 @@
               "id": 6,
               "name": "ERC20Detailed",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 952,
+              "referencedDeclaration": 951,
               "src": "424:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20Detailed_$952",
+                "typeIdentifier": "t_contract$_ERC20Detailed_$951",
                 "typeString": "contract ERC20Detailed"
               }
             },
@@ -813,9 +813,9 @@
           }
         ],
         "contractDependencies": [
-          894,
-          952,
-          1021
+          893,
+          951,
+          1020
         ],
         "contractKind": "contract",
         "documentation": "@title SimpleToken\n@dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.\nNote they can later distribute these tokens as they wish using `transfer` and other\n`ERC20` functions.",
@@ -823,9 +823,9 @@
         "id": 31,
         "linearizedBaseContracts": [
           31,
-          952,
-          894,
-          1021
+          951,
+          893,
+          1020
         ],
         "name": "Dai",
         "nodeType": "ContractDefinition",
@@ -848,7 +848,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1036,
+                          "referencedDeclaration": 1035,
                           "src": "601:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -946,7 +946,7 @@
                                       "name": "decimals",
                                       "nodeType": "Identifier",
                                       "overloadedDeclarations": [],
-                                      "referencedDeclaration": 951,
+                                      "referencedDeclaration": 950,
                                       "src": "635:8:0",
                                       "typeDescriptions": {
                                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint8_$",
@@ -1044,7 +1044,7 @@
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 780,
+                      "referencedDeclaration": 779,
                       "src": "595:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -1140,10 +1140,10 @@
                   "name": "ERC20Detailed",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 952,
+                  "referencedDeclaration": 951,
                   "src": "553:13:0",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC20Detailed_$952_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC20Detailed_$951_$",
                     "typeString": "type(contract ERC20Detailed)"
                   }
                 },
@@ -1233,12 +1233,12 @@
         }
       },
       "links": {},
-      "address": "0xc26D16D51940583C4B9e619daf8750CDd0cAb19E",
-      "transactionHash": "0xe9dee6b520cd466e818d70def16d36999d441e232d68382e10ff177523c5d69c"
+      "address": "0x0A07aB496654a5D1ee7919F1aD06875e4cEec774",
+      "transactionHash": "0xddf971bc06ee4c18f03aed35b3a66b395467293b8fef4ac1033cdf82f6a7fe91"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-16T03:48:43.186Z",
+  "updatedAt": "2019-09-10T05:01:51.493Z",
   "devdoc": {
     "details": "Very simple ERC20 Token example, where all tokens are pre-assigned to the creator. Note they can later distribute these tokens as they wish using `transfer` and other `ERC20` functions.",
     "methods": {

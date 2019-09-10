@@ -7,7 +7,7 @@ import InteractOption from './options/InteractOption';
 class App extends Component {
     state = {
         options: [],
-        choosenOption: '0x448967ac95Ca468528643D84fF3902A2d930494F'
+        choosenOption: ''
     };
 
     componentWillMount() {
